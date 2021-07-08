@@ -1,5 +1,5 @@
 html{
-    margin: 20px;
+    margin: 40px;
 }
 
 
@@ -15,15 +15,14 @@ html{
 .nav:hover{
    background-color:rgba(253, 153, 253, 0.24) ; 
 }
-.dropdown-menu{
-    background-color: orangered;
-}
-.body{background-color: rgba(36, 2, 39, 0.856);}
+
+.body{background-color: rgba(7, 26, 3, 0.856);}
 h1{text-align:center;
 color: white;
 font-family: Arial, Helvetica, sans-serif;
 font-size: larger;
-font-weight: bolder;}
+font-weight: bolder;
+background-color:0;}
 
 
 h2{text-align-last: justify;}
@@ -38,51 +37,27 @@ h2{text-align-last: justify;}
      font-family:Arial, Helvetica, sans-serif;
      font-size: x-large;
  }
- nav{
-    background-color:orange;
+ 
+ 
+  .body{background-color: rgba(97, 64, 3, 0.658);}
+  h1{text-align:center;
   }
-  .dropdown-menu{
-    background-color: orangered;
-  }
-  .body{background-color: orange;}
-  h1{text-align:center;}
   .home{
    justify-content: center;
   }
-  .hello{
-      color: white;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-10%, -10%);
-      width: 300px;
-    height: 60px;
-    background-color: red;
-    position: relative;
-    animation-name: example;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes example {
-    0%   {background-color:rgb(12, 161, 117); left:0px; top:0px;}
-    25%  {background-color:yellow; left:940px; top:500px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-  }
+  
   .hello2:hover{
     color: yellow;
   }
   .hello2{
     color: white;
     position: absolute;
-    top: 70%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
   }
-  .paragraph{
-      color:rgb(233, 42, 8);
-  }
+
   * {
     box-sizing: border-box;
 }
@@ -106,13 +81,11 @@ h2{text-align-last: justify;}
     height: auto;
 }
 .overlay {
-    position: absolute;
+    position:static;
     bottom: 0;
     left: 0;
     right: 0;
-    /* background-color: #EB177A; */
     background-color: rgb(253, 153, 253, 0.24);
-    /* background-color: #008CBA; */
     overflow: hidden;
     width: 1300px;
     height: 0;
